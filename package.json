@@ -1,2 +1,13 @@
-Error: ERROR at line 2: Unexpected token (2:10)
-> ..."name": "Trauma",...
+{
+    "name": "Trauma",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "deploy": "wrangler deploy",
+        "dev": "wrangler dev --ip 0.0.0.0",
+        "start": "wrangler dev"
+    },
+    "devDependencies": {
+        "wrangler": "^3.0.0"
+    }
+}
